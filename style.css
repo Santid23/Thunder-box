@@ -1,0 +1,681 @@
+* {
+    background-color: #262626;
+    color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+
+nav div ul {
+    background-color: #262626;
+    padding: 30px 5px;
+}
+
+.nav-link {
+    font-size: 17px;
+    padding: 25px 10px;
+    color: #89A29B;
+}
+
+.nav-link:hover {
+    color: #5B6C68;
+}
+
+nav div ul li button {
+    background-color: #89A29B;
+    padding: 20px 50px;
+    border: none;
+    margin-left: 10px;
+    font-size: 24px;
+    transition: 0.3s;
+    font-weight: bold;
+    color: #262626;
+}
+
+nav div ul li button:hover {
+    background-color: #262626;
+    color: white;
+}
+
+/* BODY */
+
+.portada {
+    position: relative;
+}
+
+.img-portada {
+    object-fit: cover;
+    width: 100%;
+    opacity: 0.4;
+}
+
+.logo {
+    z-index: 1;
+    background-color: transparent;
+    width: 753px;
+    height: 753px;
+    object-fit: cover;
+    margin-left: 400px;
+    margin-top: -750px;
+}
+
+/* CLASES */
+
+div h1 {
+    text-align: center;
+    font-size: 77px;
+    padding-top: 30px;
+}
+
+div h1 span {
+    font-size: 40px;
+    line-height: 50%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    margin-left: 20px;
+}
+
+.grid div img {
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: #7d9992;
+    height: 80%;
+
+}
+
+
+
+.clases {
+    margin-top: -60px;
+    padding-left: 25px;
+    font-size: 40px;
+    line-height: 100%;
+    position: absolute;
+    background-color: transparent;
+}
+
+/* TARIFAS */
+
+.h2-tarifas {
+    text-align: center;
+    font-size: 77px;
+    padding-top: 150px;
+}
+
+.h4-tarifas span {
+    font-size: 40px;
+    line-height: 50%;
+}
+
+.p-3 {
+    background-color: #262626;
+}
+
+.img-tarifas {
+    position: relative;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+div div div div h5 {
+    background-color: #F5F5F5;
+    color: #262626;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+div div div div p {
+    background-color: #F5F5F5;
+    color: #262626;
+    margin-bottom: -0.1px;
+}
+
+div div div div h3 {
+    background-color: #F5F5F5;
+    color: #262626;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+hr {
+    color: #262626;
+}
+
+div div div div img {
+    object-fit: cover;
+    width: 100%;
+}
+
+/* HORARIOS */
+
+.width650 {
+    display: none;
+}
+
+#div-horarios {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.h2-horarios {
+    font-size: 110px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+
+}
+
+
+/* CONOCE THUNDERBOX */
+
+.div-conoce {
+    background-color: #F5F5F5;
+    padding-bottom: 40px;
+}
+
+.h2-conoce {
+    background-color: #F5F5F5;
+    font-size: 50px;
+    padding-top: 50px;
+    color: #262626;
+    font-weight: bold;
+    padding-left: 300px;
+    line-height: 115%;
+}
+
+.h2-conoce span {
+    font-size: 77px;
+    background-color: transparent;
+    color: #262626;
+    font-weight: bold;
+}
+
+.grid-conoce {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #F5F5F5;
+}
+
+.grid-conoce1 {
+    background-color: #F5F5F5;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.grid-conoce1 img {
+    margin-left: 300px;
+}
+
+.grid-conoce1 p {
+    background-color: #F5F5F5;
+    color: #262626;
+    font-size: 18px;
+    margin-left: 300px;
+    text-align: left;
+}
+
+.grid-conoce1 p span {
+    font-size: 30px;
+    background-color: #F5F5F5;
+    color: #262626;
+    font-weight: bold;
+}
+
+.grid-conoce2 {
+    background-color: #F5F5F5;
+    padding-top: 30px;
+}
+
+.grid-conoce2 img {
+    margin-left: 150px;
+}
+
+.grid-conoce2 p {
+    background-color: #F5F5F5;
+    color: #262626;
+    font-size: 18px;
+    margin-left: 150px;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.grid-conoce2 p span {
+    font-size: 30px;
+    background-color: #F5F5F5;
+    color: #262626;
+    font-weight: bold;
+}
+
+.grid-conoce3 {
+    background-color: #F5F5F5;
+    margin-top: -115;
+}
+
+.grid-conoce3 img {
+    margin-left: 75px;
+}
+
+.grid-conoce3 p {
+    background-color: #F5F5F5;
+    color: #262626;
+    font-size: 18px;
+    margin-left: 75px;
+    text-align: left;
+    margin-right: 130px;
+}
+
+.grid-conoce3 p span {
+    font-size: 26px;
+    background-color: #F5F5F5;
+    color: #262626;
+    font-weight: bold;
+}
+
+
+
+/* CONTACTO */
+
+.contacto img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+.formulario {
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: -800px;
+        background-color: #262626;
+}
+
+.formulario h3 {
+    text-align: center;
+    background-color: #262626;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.buttons input {
+    background-color: #89A29B;
+    padding: 20px 50px;
+    border: none;
+    margin-left: 10px;
+    font-size: 24px;
+    transition: 0.3s;
+    font-weight: bold;
+    color: #262626;
+}
+
+.buttons input:hover {
+background-color: #262626;
+    color: white;
+}
+*/
+
+/* FOOTER */
+
+footer {
+    background-color: #5B6C68;
+}
+
+#container-footer {
+    background-color: #5B6C68;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#menu-footer {
+    background-color: #5B6C68;
+}
+
+#menu-footer h5 {
+    background-color: #5B6C68;
+    text-decoration: none;
+}
+
+#thunder-footer {
+    color: #9EAEAB;
+}
+
+footer div div div li {
+    background-color: #5B6C68;
+    list-style: none;
+}
+
+footer div div div a {
+    background-color: #5B6C68;
+    text-decoration: none;
+    color: #F5F5F5;
+    line-height: 190%;
+}
+
+footer div div div a:hover {
+    color: #9EAEAB;
+}
+
+#fittest-freakest {
+    background-color: #5B6C68;
+}
+
+footer div div div img {
+    background-color: #5B6C68;
+    padding-top: 95px;
+    padding-right: 100px;
+}
+
+#menu-footer p {
+    background-color: #5B6C68;
+    color: #F5F5F5;
+    line-height: 190%;
+}
+
+#ultimo-footer {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 28px;
+
+}
+
+
+#correo-num {
+    text-decoration: underline;
+}
+
+#correo-num:hover {
+    color: #F5F5F5;
+}
+
+#fittest-freakest-2 {
+    display: none;
+}
+
+/* MEDIA QUERIES */
+
+@media (width > 1835px) {
+    .logo {
+        margin-top: -800px;
+        margin-left: 550px
+    }
+}
+
+@media (width < 1550px) {
+    .logo {
+        margin-top: -700px;
+    }
+}
+
+@media (width < 1400px) {
+    .logo {
+        margin-top: -520px;
+        margin-left: 250px;
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media (width < 1060px) {
+    .logo {
+        margin-top: -450px;
+    }
+}
+
+@media (width < 1400px) {
+    .img-horarios {
+        width: 500px;
+        height: 500px;
+        margin-left: -20px;
+    }
+}
+
+@media (width < 1360px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 20px;
+    }
+}
+
+@media (width > 860px) {
+    #navbar-responsive {
+        display: none;
+    }
+}
+
+@media (width < 860px) {
+    #navbar-web {
+        display: none;
+    }
+    #navbar-responsive {
+        background-color: #262626;
+    }
+    #navbar-responsive h2 {
+        background-color: #262626;
+        margin-left: 280px;
+    }
+    #navbar-responsive div a button {
+        background-color: #89A29B;
+        padding: 20px 50px;
+        border: none;
+        margin-left: 250px;
+        font-size: 20px;
+        transition: 0.3s;
+        font-weight: bold;
+        color: #262626;
+    }
+    .navbar-toggler {
+        border: none;
+        color:none;
+    }
+    .navbar-toggler:hover {
+        border: none;
+        color: none;
+        background-color: none;
+    }
+    #desplegable1 {
+        color:#89A29B;
+        font-weight: bold;
+    }
+
+    #desplegable {
+        color: #262626;
+    }
+
+    .dropdown-menu {
+        background-color: #F5F5F5;
+    }
+    .logo {
+        margin-top: -350;
+        margin-left: 150px;
+        width: 400px;
+        height: 400px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        margin-left: 20px;
+    }
+
+    .h2-conoce {
+        text-align: left;
+        padding-left: 50px;
+        font-size: 40px;
+    }
+
+    .h2-conoce span {
+        font-size: 50px;
+    }
+
+    .grid-conoce {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #F5F5F5;
+    }
+    .grid-conoce1 img {
+        margin-left: -200px;
+    }
+    
+    .grid-conoce1 p {
+        background-color: #F5F5F5;
+        color: #262626;
+        font-size: 18px;
+        margin-left: 80px;
+        text-align: left;
+        margin-right: 280px;
+    }
+    
+    .grid-conoce1 p span {
+        font-size: 30px;
+        background-color: #F5F5F5;
+        color: #262626;
+        font-weight: bold;
+    }
+
+    
+    .grid-conoce2 img {
+        margin-left: 80px;
+    }
+    
+    .grid-conoce2 p {
+        background-color: #F5F5F5;
+        color: #262626;
+        font-size: 18px;
+        margin-left: 80px;
+        text-align: left;
+        margin-right: 280px;
+    }
+    
+    .grid-conoce2 p span {
+        font-size: 30px;
+        background-color: #F5F5F5;
+        color: #262626;
+        font-weight: bold;
+    }
+    
+    .grid-conoce3 {
+        background-color: #F5F5F5;
+        margin-top: 30px;
+    }
+    
+    .grid-conoce3 img {
+        margin-left: 80px;
+    }
+    
+    .grid-conoce3 p {
+        background-color: #F5F5F5;
+        color: #262626;
+        font-size: 18px;
+        margin-left: 80px;
+        text-align: left;
+        margin-right: 280px;
+    }
+    
+    .grid-conoce3 p span {
+        font-size: 26px;
+        background-color: #F5F5F5;
+        color: #262626;
+        font-weight: bold;
+    }
+    #fittest-freakest {
+        display: none;
+    }
+    
+    #fittest-freakest-2 {
+        display: inline-block;
+        background-color: #5B6C68;
+        width: 300px;
+    }
+}
+
+@media (width < 650px) {
+    #navbar-responsive h2 {
+        background-color: #262626;
+        margin-left: 180px;
+    }
+    #navbar-responsive div a button {
+        background-color: #89A29B;
+        padding: 20px 50px;
+        border: none;
+        margin-left: 150px;
+        font-size: 20px;
+        transition: 0.3s;
+        font-weight: bold;
+        color:#262626;
+    }
+    .logo {
+        margin-top: -260;
+        margin-left: 100px;
+        width: 300px;
+        height: 300px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+    }
+    .width650 {
+        display: inline;
+        text-align: center;
+    }
+    .h2-horarios {
+        display: none;
+    }
+    .img-horarios {
+        width: 400px;
+        height: 400px;
+        margin-left: -200px;
+    }
+    .menu-primero-footer {
+        display: none;
+    }
+    #thunder-footer {
+        display: none;
+    }
+    footer div div div li {
+        display: none;
+    }
+}
+
+@media (width < 480px) {
+    #navbar-responsive h2 {
+        background-color: #262626;
+        margin-left: 100px;
+    }
+    #navbar-responsive div a button {
+        background-color: #89A29B;
+        padding: 20px 50px;
+        border: none;
+        margin-left: 70px;
+        font-size: 20px;
+        transition: 0.3s;
+        font-weight: bold;
+        color:#262626;
+    }
+}
+
+@media (width < 450px) {
+    .logo {
+        margin-top: -150px;
+        margin-left: 100px;
+        width: 150px;
+        height: 150px;
+    }
+    div h1 span {
+        line-height: 99%;
+    }
+    .h2-tarifas {
+        font-size: 50px;
+    }
+}
